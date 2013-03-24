@@ -3,7 +3,7 @@
 import feedparser
 import time
 
-feeds = feedparser.parse('http://feeds.feedburner.com/hatena/b/hotentry')
+feeds = feedparser.parse('http://a.hatena.ne.jp/sample/rss')
 
 #Print site name
 print feeds.feed.title
